@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;800&display=swap');
+body {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: conic-gradient(
+		from 3.1416rad at 30% 43%,
+		rgba(160, 172, 168, 1) 10deg,
+		rgba(210, 235, 227, 1) 190deg,
+		rgba(210, 235, 227, 1) 250deg,
+		rgba(243, 209, 197, 1),
+		330deg,
+		rgba(160, 172, 168, 1)
+	);
+	background-attachment: fixed;
+}
+main {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 12px;
+
+	font-size: 16px;
+	font-family: 'League Spartan', sans-serif;
+}
+.form1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 400px;
+	height: 290px;
+	padding: 10px 20px 20px 20px;
+	border-radius: 20px;
+	gap: 10px;
+	margin-bottom: 100px;
+}
+.items1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	gap: 17px;
+}
+h1 {
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 800;
+	color: #73744a;
+	text-align: center;
+	font-size: 48px;
+}
+#photoIcon {
+	width: 27px;
+	height: 27px;
+}
+#photoTxt {
+	color: #a1a1a1;
+	font-family: League Spartan;
+	font-size: 14px;
+	font-weight: 400;
+}
+#custom-button {
+	height: 83px;
+	width: 83px;
+	padding: 10px;
+	color: #a1a1a1;
+	background: #f5f5f5;
+
+	border: 1px solid white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.Nickname {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#name,
+#surname {
+	padding-left: 15px;
+	background-color: #f5f5f5;
+	border-radius: 20px;
+	height: 35px;
+	width: 284px;
+	border: none;
+	font-size: 16px;
+}
+#email,
+#password {
+	padding-left: 15px;
+	background-color: #f5f5f5;
+	border-radius: 20px;
+	height: 35px;
+	width: 390px;
+	border: none;
+	font-size: 16px;
+}
+
+#signup {
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	border: none;
+	width: 131px;
+	height: 29px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+#signup:hover {
+	transform: scale(1.05, 1.05);
+}
+.itemsLast {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+#account {
+	color: #a1a1a1;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+#goto {
+	color: #73744a;
+	background-color: white;
+	font-weight: 600;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	text-decoration: underline;
+}
